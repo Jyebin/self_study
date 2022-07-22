@@ -16,7 +16,8 @@ int main(void)
         if(res == -1){ //반환값이 -1이면 반복 종료
             break;
         }
-        printf("%d",ch); //입력된 문자의 아스키 코드 값 출력
+        printf("%d ",ch); //입력된 문자의 아스키 코드 값 출력
     }
     return 0;
 }
+
