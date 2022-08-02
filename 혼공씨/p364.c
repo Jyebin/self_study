@@ -32,3 +32,11 @@ void auto_func(void)
     a++; //a 값 1 증가
     printf("%d\n",a); //a출력
 }
+
+void static_func(void)
+{
+    static int a; //정적 지역 변수 선언
+    
+    a++; //a값 1증가
+    printf("%d\n",a); //a출력
+}
